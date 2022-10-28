@@ -1,13 +1,269 @@
+@import url('https://rsms.me/inter/inter.css');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@media (min-width: 375px){
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  .share{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 324px;
+    top: 44px;
+    background: url("./images/btn_Default.png") no-repeat;
+    background-position-x: center;
+    background-size: cover;
+  }
+
+  .share:active{
+    background: url("./images/btn_Pressed.png") no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    /*width: 150px;*/
+    /*height: 51px;*/
+    /*right: 344px;*/
+  }
+  #profile__img{
+    width: 88px;
+    height: 88px;
+
+  }
+  .profile__img{
+    text-align: center;
+    border-radius: 275px;
+    width: 88px;
+    height: 88px;
+    margin-top: 64px;
+    margin-left: auto;
+    background: url("./images/profile__img.png") no-repeat;
+    margin-right: auto;
+    background-position-x: center;
+    background-size: cover;
+  }
+
+  .profile__img:active {
+    background: url("./images/profile___hover.png") no-repeat;
+    background-position-x: center;
+    background-size: cover;
+  }
+
+  #twitter{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #101828;
+    margin-top: 24px;
+  }
+  button{
+    width: 343px;
+    height: 68px;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 8px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  button:active{
+    background: #D0D5DD;
+  }
+  .b_con{
+    text-align: center;
+    padding-top: 56px;
+  }
+  a{
+    text-decoration: none;
+  }
+  #slack{
+    display: none;
+  }
+  .social{
+    height: 24px;
+    text-align: center;
+    margin-top: 48px;
+  }
+  .slack{
+    height: 100%;
+  }
+  .git{
+    height: 100%;
+    margin-left: 25px;
+  }
+  .note{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #667085;
+    margin-top: 16px;
+    width: auto;
+  }
+  .last{
+    margin: 175px 0 48px;
+  }
+  .zuri{
+    width: 139px;
+  }
+  .ig{
+    width: 99px;
+    margin-top: 16px;
+  }
+  .line{
+    position: relative;
+    top: 132px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+}
+@media (min-width: 1440px){
+  .foter{
+    background-color: beige;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  }
+  .share{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 352px;
+    top: 44px;
+    background: url("./images/share.png") no-repeat;
+    background-position-x: center;
+    background-size: cover;
+  }
+
+  .share:hover{
+    background: url("./images/share__hover.png") no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    width: 150px;
+    height: 51px;
+    right: 344px;
+  }
+  #profile__img{
+    width: 88px;
+    height: 88px;
+
+  }
+  .profile__img{
+    text-align: center;
+    border-radius: 275px;
+    width: 88px;
+    height: 88px;
+    margin-top: 64px;
+    margin-left: auto;
+    background: url("./images/profile__img.png") no-repeat;
+    margin-right: auto;
+    background-position-x: center;
+    background-size: cover;
+  }
+
+  .profile__img:hover {
+    background: url("./images/profile___hover.png") no-repeat;
+    background-position-x: center;
+    background-size: cover;
+  }
+
+  #twitter{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #101828;
+    margin-top: 24px;
+  }
+  button{
+    width: 1152px;
+    height: 76px;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 8px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  button:hover{
+    background: #D0D5DD;
+  }
+  .b_con{
+    text-align: center;
+    padding-top: 56px;
+  }
+  a{
+    text-decoration: none;
+  }
+  #slack{
+    display: none;
+  }
+  .social{
+    height: 20px;
+    text-align: center;
+    margin-top: 48px;
+  }
+  .slack{
+    height: 100%;
+  }
+  .git{
+    height: 100%;
+    margin-left: 25px;
+  }
+  .note{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
+    margin-top: auto;
+  }
+  .last{
+    padding-left: 113px;
+    padding-right: 113px;
+    margin: 175px 0 48px;
+  }
+  .zuri{
+    width: 185px;
+  }
+  .ig{
+    width: 132px;
+    float: right;
+  }
+  .line{
+    position: relative;
+    top: 132px;
+    padding-right: 113px;
+    padding-left: 113px;
+  }
+
 }
