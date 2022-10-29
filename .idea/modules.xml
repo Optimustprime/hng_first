@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/firstreactapp.iml" filepath="$PROJECT_DIR$/firstreactapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hng_first.iml" filepath="$PROJECT_DIR$/hng_first.iml" />
     </modules>
   </component>
 </project>
