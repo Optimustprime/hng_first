@@ -5,13 +5,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media (min-width: 375px){
+@media (min-width: 300px){
 
   .share{
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 324px;
+    left: 86%;
     top: 44px;
     background: url("./images/btn_Default.png") no-repeat;
     background-position-x: center;
@@ -60,7 +60,7 @@ body {
     margin-top: 24px;
   }
   button{
-    width: 343px;
+    width: 91%;
     height: 68px;
     background: #EAECF0;
     border: 1px solid #EAECF0;
@@ -88,6 +88,9 @@ body {
   }
   a{
     text-decoration: none;
+  }
+  a:hover{
+    color: transparent;
   }
   #slack{
     display: none;
@@ -132,7 +135,7 @@ body {
   }
 
 }
-@media (min-width: 1440px){
+@media (min-width: 1220px){
   .foter{
     background-color: beige;
   }
@@ -147,6 +150,7 @@ body {
     height: 40px;
     right: 352px;
     top: 44px;
+    left: unset;
     background: url("./images/share.png") no-repeat;
     background-position-x: center;
     background-size: cover;
@@ -222,6 +226,9 @@ body {
   }
   a{
     text-decoration: none;
+  }
+  a:hover{
+    color: transparent;
   }
   #slack{
     display: none;
