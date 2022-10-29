@@ -82,6 +82,9 @@ body {
   button:active{
     background: #D0D5DD;
   }
+  button:focus{
+    outline: none;
+  }
   .b_con{
     text-align: center;
     padding-top: 56px;
