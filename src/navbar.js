@@ -8,7 +8,7 @@ export default function Header(){
             <div className= "profile__img">
             </div>
             <div id="twitter">
-                    Annette Black <span id="slack">TheOptimust</span>
+                    @oladayo_marvellous <span id="slack">TheOptimust</span>
                 </div>
         </nav>
     )
