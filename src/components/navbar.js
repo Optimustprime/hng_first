@@ -2,7 +2,6 @@
 export default function Header(){
     return(
         <nav>
-
             <div className="share">
             </div>
             <div className= "profile__img">
