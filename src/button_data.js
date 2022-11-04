@@ -36,7 +36,7 @@ export default [
         setup:"Design Books"
     },
     {
-        href:"/contact",
+        href:"/contactus",
         subtext:"",
         id:"contact",
         setup:"Contact Me"
